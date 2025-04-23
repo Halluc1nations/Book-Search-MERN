@@ -12,8 +12,8 @@ import { fileURLToPath } from "node:url";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const distPath = path.join(__dirname, "../client/dist");
-const indexPath = path.join(__dirname, "../client/dist/index.html");
+const distPath = path.join(__dirname, "../../client/dist");
+const indexPath = path.join(__dirname, "../../client/dist/index.html");
 
 const server = new ApolloServer({
   typeDefs,
